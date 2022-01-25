@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #23252C;
+}
+
+.wrap-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 44px;
+    margin-bottom: 44px;
+}
+
+.profile-picture > img {
+    width: 417px;
+    height: 417px;
+    border-radius: 10px 10px 0 0;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    font-family: Inter, sans-serif;
+    width: 417px;
+    height: 499px;
+    background-color: #1A1B21;
+}
+
+.contact--titles {
+    text-align: center;
+}
+
+.contact--titles > h2 {
+    margin-bottom: 6px;
+    color: #FFFFFF;
+}
+
+.contact--titles > h3 {
+    margin-top: 0;
+    margin-bottom: 9px;
+    color: #F3BF99;
+}
+
+.contact--titles > h5 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #F5F5F5;
+}
+
+.contact--buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#button-email {
+    width: 115px;
+    height: 34px;
+    padding: 7px 13px;
+    border-radius: 6px;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#button-linkedin {
+    width: 115px;
+    height: 34px;
+    padding: 7px 13px;
+    border-radius: 6px;
+    background-color: #5093E2;
+    color: white;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#email-icon {
+    width: 16px;
+    height: 16px;
+    color: #1E1F26;
+    margin-right: 8px;
+}
+
+#linkedin-icon {
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    color: #5093E2;
+    margin-right: 8px;
+}
+
+.contact--about {
+    display: flex;
+    flex-direction: column;
+    margin: 33px 34px 24px 36px;
+    width: 347px;
+    height: 201px;
+    text-align: justify;
+}
+
+.contact--about > h2 {
+    color: #F5F5F5;
+    margin: 0;
+}
+
+.contact--about > p {
+    color: #DCDCDC;
+}
+
+.footer--icons {
+    width: 417px;
+    height: 64px;
+    background-color: #161619;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer--icons > i {
+    margin-top: 10px;
+    font-size: 45px;
+    color: #918E9B;
+}
